@@ -1,0 +1,7 @@
+print("Find average score PROGRAM!")
+math, physic, chemistry = eval(input("Score of math, physic, chemistry: "))
+print("Math: ", math)
+print("Physic: ", physic)
+print("Chemistry: ", chemistry)
+average = round(((math+physic+chemistry)/3),2)
+print("Average: ", average)
